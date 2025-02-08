@@ -2,63 +2,63 @@
 
 ## Comandos de Git
 
-### Configuracion de git
+##### Configuracion de git
 
 ```
 git config --global user.name "Tu Nombre"
 git config --global user.email "tu@email.com"
 ```
 
-### Configuracion inicial
+##### Configuracion inicial
 
 ```
 git init
 ```
 
-### Conectar a repositorio remoto
+##### Conectar a repositorio remoto
 
 ```
 git remote add origin https://github.com/usuario/repositorio.git
 ```
 
-### Clonar repositorio
+##### Clonar repositorio
 
 ```
 git clone https://github.com/usuario/repositorio.git
 ```
 
-### Ver estado de los archivos
+##### Ver estado de los archivos
 
 ```
 git status
 ```
 
-### Crear una rama
+##### Crear una rama
 
 ```
 git branch nombre-rama
 ```
 
-### Renombrar rama
+##### Renombrar rama
 
 ```
 git branch -m main     # Puedes colocar el nombre que quieras en lugar de main
 ```
 
-### Añadir archivos
+##### Añadir archivos
 
 ```
 git add nombre_archivo # Añade un archivo específico
 git add . # Añade todos los archivos nuevos o modificados
 ```
 
-### Confirmar cambios
+##### Confirmar cambios
 
 ```
 git commit -m "Mensaje descriptivo del cambio"
 ```
 
-### Subir cambios a repositorio
+##### Subir cambios a repositorio
 
 ```
 git push origin main         # Si la rama se llama "main"
@@ -67,13 +67,13 @@ git push origin master       # Si la rama se llama "master"
 git push -f origin main      # Para forzar la subida
 ```
 
-### Descargar cambios
+##### Descargar cambios
 
 ```
 git pull origin main
 ```
 
-### Actualizar tu repositorio local con los últimos cambios (fetch + merge):
+##### Actualizar tu repositorio local con los últimos cambios (fetch + merge):
 
 ```
 git fetch origin            # Descarga cambios sin mezclarlos
