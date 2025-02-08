@@ -15,6 +15,8 @@
     "nodemon": "^3.1.9"
   },
   "dependencies": {
-    "02-bases": "file:"
+    "02-bases": "file:",
+    "get-age": "^1.0.1",
+    "uuid": "^11.0.5"
   }
 }
